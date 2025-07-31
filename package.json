@@ -1,0 +1,13 @@
+{
+  "name": "ec2-node-app",
+  "version": "1.0.0",
+  "description": "Simple Node.js app for EC2 on port 4200",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "build": "echo 'No build steps yet. All files ready.'"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
