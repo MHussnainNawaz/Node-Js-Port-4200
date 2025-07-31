@@ -1,11 +1,10 @@
 {
-  "name": "ec2-node-app",
+  "name": "node-js-on-ec2",
   "version": "1.0.0",
-  "description": "Simple Node.js app for EC2 on port 4200",
+  "description": "Node.js app running on EC2 and port 4200",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "build": "echo 'No build steps yet. All files ready.'"
+    "start": "node app.js"
   },
   "dependencies": {
     "express": "^4.18.2"
